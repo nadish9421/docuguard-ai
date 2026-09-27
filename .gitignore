@@ -1,0 +1,17 @@
+# Ignore ONNX models and large binaries
+models/*.onnx
+models/*.bin
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ignore virtual environments if you used one
+venv/
+env/
+.env
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
